@@ -1,0 +1,69 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  background: url("images/boatshore.jpg");
+  background-size: cover;
+  color: #f1faee;
+  text-shadow: 0px 0px 3px #010203;
+  font-family: "Noto Sans", sans-serif;
+}
+.intro {
+  padding: 15px;
+}
+
+img {
+  max-width: 300px;
+  max-height: 200px;
+  border-radius: 10px;
+  border: 2px solid #457b9d;
+  box-shadow: 2px 2px #457b9d;
+  margin: 0 auto;
+}
+.discover {
+  font-style: italic;
+  padding: 15px;
+  background: #457b9d;
+  max-width: 600px;
+  padding: 1px;
+  margin: 40px auto;
+  border-radius: 10px;
+  border: 1px solid #1d3557;
+  box-shadow: 2px 2px #457b9d;
+}
+.discover:hover {
+  background: #1d3557;
+  cursor: grab;
+}
+
+.cities-img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.guide-card {
+  margin: 40px auto;
+  border-radius: 10px;
+  border: 1px solid #457b9d;
+  box-shadow: 2px 2px #457b9d;
+  background: #1d3557;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 600px;
+}
